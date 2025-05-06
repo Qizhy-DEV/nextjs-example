@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "lint-staged": {
-    "*.{ts,tsx}": ["eslint --fix", "prettier --write"]
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   },
   "scripts": {
     "dev": "next dev --turbopack",
@@ -33,7 +36,7 @@
     "eslint-plugin-prettier": "^5.4.0",
     "eslint-plugin-react": "^7.37.5",
     "globals": "^16.0.0",
-    "husky": "^9.1.7",
+    "husky": "^8.0.0",
     "lint-staged": "^15.5.1",
     "prettier": "^3.5.3",
     "tailwindcss": "^4",
